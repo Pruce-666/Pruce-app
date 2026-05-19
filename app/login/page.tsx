@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { Music, Phone, Lock, Eye, EyeOff, ArrowLeft, MessageCircle, Apple, CircleUser } from "lucide-react";
+import { Music, Phone, Lock, Eye, EyeOff, ArrowLeft, MessageCircle, Apple, User } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useAuthStore } from "@/store/authStore";
 
@@ -175,7 +175,7 @@ export default function LoginPage() {
             </button>
             <button className="flex flex-col items-center gap-2">
               <div className="w-12 h-12 rounded-full bg-blue-500 flex items-center justify-center hover:bg-blue-600 transition-colors">
-                <CircleUser size={24} className="text-white" />
+                <User size={24} className="text-white" />
               </div>
               <span className="text-xs text-gray-500">QQ</span>
             </button>
